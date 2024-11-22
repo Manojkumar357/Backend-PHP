@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #FF5733; /* Orangish-red color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.navbar .logo {
+    width: 80px; /* Resize logo */
+    margin-right: 30px; /* Increase space between logo and Home link */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 15px 20px;
+    border-radius: 10px; /* Add spacing between links */
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #8A2Be2 !important;
+  color: white; /* Hover effect with golden yellow color */
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: white; /* White toggler button */
+}
+
+.navbar-toggler-icon {
+    color: #FF5733;
+}
+
+.form-control {
+    border-radius: 30px; /* Rounded search bar */
+    border: 1px solid #FFC300;
+}
+
+.btn-outline-light {
+    background-color: white;
+    color: #FF5733;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color:#8A2Be2;
+    color: white;
+}
+.form-control {
+width: 400px; /* Set a custom width */
+height: 45px; /* Optional: Set a custom height */
+border-radius: 30px; /* Rounded edges */
+border: 1px solid #FFC300; /* Optional: Add a border */
+transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
